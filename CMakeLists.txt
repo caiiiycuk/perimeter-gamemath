@@ -62,7 +62,7 @@ set(FLOAT_SOURCE
     # float/k_expf.c
     float/k_rem_pio2f.c
     float/k_sinf.c
-    # float/k_tanf.c
+    float/k_tanf.c
     # float/s_asinhf.c
     float/s_atanf.c
     # float/s_cbrtf.c
@@ -97,7 +97,7 @@ set(FLOAT_SOURCE
     float/s_scalbnf.c
     # float/s_significandf.c
     float/s_sinf.c
-    # float/s_tanf.c
+    float/s_tanf.c
     # float/s_tanhf.c
     # float/s_truncf.c
     # float/w_dremf.c
@@ -107,7 +107,7 @@ set(DOUBLE_SOURCE
     double/e_acos.c
     # double/e_acosh.c
     # double/e_asin.c
-    # double/e_atan2.c
+    double/e_atan2.c
     # double/e_atanh.c
     # double/e_cosh.c
     double/e_exp.c
@@ -131,9 +131,9 @@ set(DOUBLE_SOURCE
     # double/k_exp.c
     double/k_rem_pio2.c
     double/k_sin.c
-    # double/k_tan.c
+    double/k_tan.c
     # double/s_asinh.c
-    # double/s_atan.c
+    double/s_atan.c
     # double/s_cbrt.c
     double/s_ceil.c
     double/s_copysign.c
@@ -165,7 +165,7 @@ set(DOUBLE_SOURCE
     double/s_scalbn.c
     # double/s_significand.c
     double/s_sin.c
-    # double/s_tan.c
+    double/s_tan.c
     # double/s_tanh.c
     # double/s_trunc.c
     # double/w_drem.c
